@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Roman Numeral Finder</title>
+    <!--<script src="../js/jquery-3.3.1.js"></script>-->
+    <script>window.$ = window.jQuery = require('../js/jquery-3.3.1');</script>
+    <script type="text/javascript" src="../js/index.js"></script>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script type="text/javascript" src="../js/enterKey.js"></script>
+</head>
+<body>
+    <h1>Roman Numeral Finder</h1>
+    <div id="errors"></div>
+    <p>
+        <input id="romanNumeral" type="number" min="1" max="100" required/>
+        <button id="btn" onclick="getRomanNumeral()" type="submit">Find</button>
+    </p>
+    <output id="output"></output>
+</body>
+</html>
